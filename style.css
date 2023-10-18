@@ -1,0 +1,40 @@
+body{
+    /* background-color: white; */
+    width: 1440px;
+    height: 900px;
+}
+
+#background-left{
+    width: 483px;
+    height: 900px;
+    position: absolute;
+    background-color: linear-gradient(hsl(249, 99%, 64%), hsl(278, 94%, 30%));
+}
+
+
+#background-right{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    margin-left: 483px;
+    width: 381px;
+    height: 352px;
+}
+
+#background-right #name{
+    width: 381px;
+    height: 45px;
+    font-size: 15px;
+}
+
+#background-right #label-name{
+    width: 140px;
+    height: 15px;
+    font-size: 13px;
+    font-weight: 700;
+}
+
+#date-cvv{
+    display: flex;
+    flex-direction: row;
+}
