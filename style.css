@@ -9,6 +9,7 @@ body{
     height: 900px;
     position: absolute;
     background-color: linear-gradient(hsl(249, 99%, 64%), hsl(278, 94%, 30%));
+    background-color: black;
 }
 
 
@@ -34,7 +35,12 @@ body{
     font-weight: 700;
 }
 
-#date-cvv{
+#input-cvv{
+    display: flex;
+    flex-direction: row;
+}
+
+#input-cvv{
     display: flex;
     flex-direction: row;
 }
