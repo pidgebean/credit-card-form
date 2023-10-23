@@ -16,7 +16,18 @@
   </style>
 </head>
 <body>
-  <div id="background-left">hello</div>
+  <img src="/images/bg-main-desktop.png" id="background-left">
+
+  <div id="card-front">
+    <img src="/images/bg-card-front.png" id="card-front-img">
+    <div id="card-info">
+      <div id="card-number">0000 0000 0000 0000</div>
+      <div id="card-name">Jane Appleseed</div>
+      <div id="ex-date">00/00</div>
+    </div>
+  </div>
+  
+  <img src="/images/bg-card-back.png" id="card-back-img">
 
   <div id="background-right">
     <label for="name" id="label-name">CARDHOLDER NAME</label>
@@ -26,7 +37,7 @@
     <input type="number" placeholder="0000 0000 0000 0000" id="number">
 
     <div id="label-cvv">
-      <label for="ex-month">EXP. DATE (MM/YY)</label>
+      <label for="ex-month" id="ex-label">EXP. DATE (MM/YY)</label>
       <label for="ccv">CVC</label>
     </div>
 
@@ -48,9 +59,5 @@
   We've added your card details
   Continue
   
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
 </body>
 </html>

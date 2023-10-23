@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500&display=swap');
+
+*{
+    font-family: 'Space Grotesk', sans-serif;
+}
+
 body{
     /* background-color: white; */
     width: 1440px;
@@ -9,7 +15,46 @@ body{
     height: 900px;
     position: absolute;
     background-color: linear-gradient(hsl(249, 99%, 64%), hsl(278, 94%, 30%));
-    background-color: black;
+    background-color: hsl(278, 68%, 11%);
+}
+
+#card-front-img, #card-back-img{
+    width: 447px;
+    height: 245px;
+    position: absolute;
+}
+
+#card-info{
+    position: absolute;
+    color: white;
+}
+
+#card-number{
+    width: 372px;
+    height: 36px;
+    margin-left: 194px;
+    margin-top: 324px;
+    font-size: 30px;
+}
+
+#card-name{
+    margin-left: 194px;
+    margin-top: 30px;
+}
+
+#ex-date{
+    /* margin-top:30px; */
+    margin-left: 529px;
+}
+
+#card-front-img{
+    margin-top: 185.5px;
+    margin-left: 161.5px;
+}
+
+#card-back-img{
+    margin-left: 255px;
+    margin-top: 465.5px;
 }
 
 
@@ -17,7 +62,9 @@ body{
     background-color: white;
     display: flex;
     flex-direction: column;
-    margin-left: 483px;
+    margin-left: 827.5px;
+    padding-top: 267px;
+    /* margin-top: 300px; */
     width: 381px;
     height: 352px;
 }
@@ -26,6 +73,7 @@ body{
     width: 381px;
     height: 45px;
     font-size: 15px;
+    margin-bottom: 10px;
 }
 
 #background-right #label-name{
@@ -35,12 +83,47 @@ body{
     font-weight: 700;
 }
 
-#input-cvv{
+#background-right #number{
+    width: 381px;
+    height: 45px;
+    margin-bottom: 10px;
+}
+
+#label-cvv{
     display: flex;
     flex-direction: row;
+}
+
+#label-cvv #ex-label{
+    margin-right: 30px;
 }
 
 #input-cvv{
     display: flex;
     flex-direction: row;
+    margin-bottom: 20px;
+}
+
+#input-cvv #ex-month{
+    width: 80px;
+    height: 45px;
+    margin-right: 10px;
+}
+
+#input-cvv #ex-year{
+    width: 80px;
+    height: 45px;
+    margin-right: 10px;
+}
+
+#input-cvv #ccv{
+    width: 191px;
+    height: 45px;
+}
+
+button{
+    width: 381px;
+    height: 53px;
+    background-color: hsl(278, 68%, 11%);
+    color: white;
 }
