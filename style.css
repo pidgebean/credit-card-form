@@ -45,6 +45,14 @@ body{
 #ex-date{
     /* margin-top:30px; */
     margin-left: 529px;
+    margin-top: -20px;
+}
+
+#cvc-num{
+    position: absolute;
+    color: white;
+    margin-top: 575px;
+    margin-left: 600px;
 }
 
 #card-front-img{
