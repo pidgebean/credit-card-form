@@ -4,7 +4,13 @@ function creditCard() {
     let cardName = document.getElementById("card-name");
 
     let number = document.getElementById("number");
-    let cardNumber = document.getElementById("card-number");
+    let arrayNumber = Array.from(Number(number), Number);
+    console.log(arrayNumber);
+
+    let cardNumberOne = document.getElementById("card-number-1");
+    let cardNumberTwo = document.getElementById("card-number-2");
+    let cardNumberThree = document.getElementById("card-number-3");
+    let cardNumberFour = document.getElementById("card-number-4");
 
     let expMonth = document.getElementById("ex-month");
     let cardMonth = document.getElementById("card-month");

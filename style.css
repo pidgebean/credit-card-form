@@ -30,12 +30,20 @@ body{
 }
 
 #card-number{
+    display: flex;
+    flex-direction: row;
     width: 372px;
     height: 36px;
     margin-left: 194px;
     margin-top: 324px;
     font-size: 30px;
 }
+
+#card-number-1, 
+#card-number-2, 
+#card-number-3 {
+    margin-right: 15px;
+} 
 
 #card-name{
     margin-left: 194px;
