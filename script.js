@@ -38,9 +38,16 @@ function creditCard() {
         ccv.style.borderColor = "red";
     } else{
         cardName.innerHTML = name.value;
-        cardNumber.innerHTML = number.value;
+        // cardNumber.innerHTML = number.value;
         cardMonth.innerHTML = expMonth.value;
         cardYear.innerHTML = expYear.value;
         cvcNum.innerHTML = ccv.value;
     }
+
+    let backgroundRight = document.getElementById("background-right");
+    let completedScreen = document.getElementById("completed-screen");
+
+    backgroundRight.style.visibility = "hidden";
+    completedScreen.style.visibility = "visible";
+
 }

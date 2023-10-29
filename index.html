@@ -35,6 +35,7 @@
   
   <img src="/images/bg-card-back.png" id="card-back-img">
   <div id="cvc-num">000</div>
+
   <div id="background-right">
     <label for="name" id="label-name">CARDHOLDER NAME</label>
     <input type="text" placeholder="e.g. Jane Appleseed" id="name">
@@ -57,13 +58,12 @@
     <button id="confirm" onclick="creditCard()"><div id="button-label">Confirm</div></button>
   </div>
 
-  
-
-  <!-- Completed state start -->
-
-  Thank you!
-  We've added your card details
-  Continue
+  <div id="completed-screen">
+    <img src="/images/icon-complete.svg" id="check-img">
+    <div id="title">THANK YOU!</div>
+    <div id="message">We've added your card details</div>
+    <button id="continue-button"><div id="button-2-label">Continue</div></button>
+  </div>
 
   <script src="script.js"></script>
   

@@ -85,6 +85,7 @@ body{
     /* margin-top: 300px; */
     width: 381px;
     height: 352px;
+    visibility: visible;
 }
 
 #background-right #name{
@@ -179,4 +180,55 @@ button{
     height: 23px;
     font-size: 18px;
     padding-left: 150px;
+}
+
+#completed-screen{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: top;
+    position: absolute;
+    margin-left: 827.5px;
+    margin-top: -301px;
+    width: 381px;
+    height: 291px;
+    visibility: hidden;
+}
+
+#completed-screen #check-img{
+    width: 80px;
+    height: 80px;
+    margin-bottom: 36px;
+}
+
+#completed-screen #title{
+    width: 381px;
+    height: 36px;
+    font-size: 30px;
+    margin-left: 200px;
+    margin-bottom: 17px;
+}
+
+#completed-screen #message{
+    width: 263px;
+    height: 23px;
+    font-size: 18px;
+    margin-bottom: 48px;
+    /* visibility: none; */
+    /* margin-left: 10px; */
+}
+
+#completed-screen #continue-button{
+    width: 381px;
+    height: 53px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+#continue-button #button-2-label{
+    width: 79px;
+    height: 23px;
+    font-size: 18px;
 }
